@@ -16,4 +16,4 @@ log/
 target/
 
 # H2
-tasks.*.db
+tasks*.db
