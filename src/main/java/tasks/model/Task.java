@@ -17,6 +17,8 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    private Long taskListId = 1L;
+
     private String name;
 
     @Enumerated(EnumType.STRING)
